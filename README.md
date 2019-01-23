@@ -1,5 +1,5 @@
 ## Docker image with Google SDK and AWS CLI on Alpine Linux 
-
+****
 #### Setup
 
 Create or select a GCP service account with an appropriate role granted for access to GCP resources as you see fit. Save the credential `.json`
@@ -17,7 +17,7 @@ and execute it with:
 ```
 This adds a `cloudtools` alias into the shell which authorises with AWS using the key pair exported as environment variables in the auth script. Calls can then be issued to any GCP or AWS command as follows. 
 
-
+****
 #### Usage examples
 
 ```
@@ -29,7 +29,7 @@ cloudtools aws s3 ls
 ```
 cloudtools gcloud auth list
 ```
-
+****
 #### Example AWS auth and alias script
 ```
 #!/bin/bash
