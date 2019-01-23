@@ -15,7 +15,7 @@ and execute it with:
 ```
 . <your-script-name>.sh
 ```
-This adds the `cloudtools` alias for `docker run` into the shell, which authorises at runtime with AWS, using the key pair exported as environment variables in the auth script. Calls can then be issued to any GCP or AWS command as follows. 
+This adds the `cloudtools` alias for `docker run` into the shell, which authorises at runtime with AWS, using the key pair exported as environment variables in the auth script. Calls can then be issued to any GCP or AWS command as follows:
 
 ****
 #### Usage examples
