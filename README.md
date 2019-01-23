@@ -27,6 +27,9 @@ cloudtools gsutil ls --help
 cloudtools aws s3 ls 
 ```
 ```
+cloudtools aws --help
+```
+```
 cloudtools gcloud auth list
 ```
 ****
