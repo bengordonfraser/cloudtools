@@ -33,7 +33,7 @@ cloudtools gcloud auth list
 #### Example AWS auth and alias script
 ```
 #!/bin/bash
-export AWSREGION=<your AWS region of choice>
+export AWSREGION=__<your AWS region of choice>__
 export AWSACCESSKEYID=<your AWS access key ID>
 export AWSSECRETACCESSKEY=<your AWS secret access key>
 alias cloudtools="docker run -it --rm \
