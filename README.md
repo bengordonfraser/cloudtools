@@ -26,7 +26,7 @@ cloudtools aws s3 ls
 cloudtools gcloud auth list
 ```
 
-#### Example AWS and alias script
+#### Example AWS auth and alias script
 ```
 #!/bin/bash
 export AWSREGION=<your AWS region of choice>
