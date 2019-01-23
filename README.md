@@ -39,7 +39,7 @@ cloudtools aws help
 cloudtools aws s3 ls 
 ```
 ****
-#### Example AWS auth and alias script
+#### Example AWS auth and cloudtools alias script
 ```javascript
 #!/bin/bash
 export AWSREGION=<your AWS region of choice>
