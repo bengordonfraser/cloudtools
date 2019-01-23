@@ -40,6 +40,7 @@ alias cloudtools="docker run -it --rm \
     -e AWS_DEFAULT_REGION=$AWSREGION \
     -e AWS_ACCESS_KEY_ID=$AWSACCESSKEYID \
     -e AWS_SECRET_ACCESS_KEY=$AWSSECRETACCESSKEY \
-    -v $(pwd):/tmp/certs bengordonfraser/cloudtools:latest"
+    -v $(pwd):/tmp/certs \
+    bengordonfraser/cloudtools:latest"
 ```
 
