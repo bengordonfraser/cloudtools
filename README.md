@@ -1,4 +1,4 @@
-###### Docker image on Alpine Linux with Google SDK and AWS CLI
+# Docker image on Alpine Linux with Google SDK and AWS CLI
 
 #### Setup
 
