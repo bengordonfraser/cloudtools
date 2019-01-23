@@ -36,7 +36,9 @@ cloudtools gcloud auth list
 export AWSREGION=<your AWS region of choice>
 export AWSACCESSKEYID=<your AWS access key ID>
 export AWSSECRETACCESSKEY=<your AWS secret access key>
-alias cloudtools="docker run -it --rm -e AWS_DEFAULT_REGION=$AWSREGION -e AWS_ACCESS_KEY_ID=$AWSACCESSKEYID \
+alias cloudtools="docker run -it --rm \
+    -e AWS_DEFAULT_REGION=$AWSREGION \
+    -e AWS_ACCESS_KEY_ID=$AWSACCESSKEYID \
     -e AWS_SECRET_ACCESS_KEY=$AWSSECRETACCESSKEY \
     -v $(pwd):/tmp/certs bengordonfraser/cloudtools:latest"
 ```
