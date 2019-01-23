@@ -6,15 +6,15 @@ RUN apk --no-cache update && \
     pip --no-cache-dir install --upgrade pip awscli && \
     rm -rf /var/cache/apk/* 
 
-# Downloading gcloud package
+# Downloading the Google SDK package
 RUN curl https://dl.google.com/dl/cloudsdk/release/google-cloud-sdk.tar.gz > /tmp/google-cloud-sdk.tar.gz
 
-# Installing the gcloud package
+# Installing the Google SDK package
 RUN mkdir -p /usr/local/gcloud && \
     tar -C /usr/local/gcloud -xvf /tmp/google-cloud-sdk.tar.gz && \
     /usr/local/gcloud/google-cloud-sdk/install.sh   
 
-# Adding the gcloud package path to local
+# Adding the Google SDK path to local
 ENV PATH $PATH:/usr/local/gcloud/google-cloud-sdk/bin
 
 # Updating the gcloud components
