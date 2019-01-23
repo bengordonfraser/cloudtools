@@ -24,13 +24,13 @@ This adds the `cloudtools` alias for `docker run` into the shell, which authoris
 cloudtools gsutil ls --help
 ```
 ```
-cloudtools aws s3 ls 
-```
-```
-cloudtools aws --help
-```
-```
 cloudtools gcloud auth list
+```
+```
+cloudtools aws help
+```
+```
+cloudtools aws s3 ls 
 ```
 ****
 #### Example AWS auth and alias script
