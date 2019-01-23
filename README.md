@@ -27,6 +27,9 @@ cloudtools gcloud --help
 cloudtools gcloud components list
 ```
 ```
+cloudtools gsutil ls -p <your GCP project ID>
+```
+```
 cloudtools gsutil ls gs://<your GCP bucket>
 ```
 ```
