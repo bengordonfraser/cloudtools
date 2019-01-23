@@ -27,7 +27,10 @@ cloudtools gcloud --help
 cloudtools gcloud auth list
 ```
 ```
-cloudtools gsutil ls gs://<your bucket>
+cloudtools gsutil ls gs://<your GCP bucket>
+```
+```
+cloudtools gsutil rsync -r gs://<your GCP bucket> s3://<your AWS bucket>
 ```
 ```
 cloudtools aws help
