@@ -5,7 +5,7 @@ Docker image on Alpine Linux with Google SDK and AWS CLI
 Copy GCP service account credentials, named `svc_account.json` into the directory you're running this container from.
 The GCP service account authorization happens at runtime in the `docker_entrypoint.sh` script.
 
-Put the AWS auth script into the directory you're running this container from, named `<your-script-name>.sh`, 
+Put your AWS auth script into the directory you're running this container from, named `<your-script-name>.sh`, 
 and execute it with: 
 
 ```
