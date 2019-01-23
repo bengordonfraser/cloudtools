@@ -21,10 +21,13 @@ This adds the `cloudtools` alias for `docker run` into the shell, which authoris
 #### Usage examples
 
 ```
-cloudtools gsutil ls --help
+cloudtools gcloud --help
 ```
 ```
 cloudtools gcloud auth list
+```
+```
+cloudtools gsutil ls gs://<your bucket>
 ```
 ```
 cloudtools aws help
