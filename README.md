@@ -31,7 +31,7 @@ cloudtools gcloud auth list
 ```
 ****
 #### Example AWS auth and alias script
-```python
+```javascript
 #!/bin/bash
 export AWSREGION=<your AWS region of choice>
 export AWSACCESSKEYID=<your AWS_ACCESS_KEY_ID>
