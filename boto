@@ -1,0 +1,26 @@
+
+[Credentials]
+
+gs_service_key_file = /tmp/certs/svc_account.json
+
+
+[Boto]
+
+
+https_validate_certificates = True
+
+
+[GSUtil]
+
+content_language = en
+
+default_api_version = 2
+
+default_project_id = bgf-cloudtools
+
+[OAuth2]
+
+
+
+
+
