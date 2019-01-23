@@ -24,7 +24,7 @@ This adds the `cloudtools` alias for `docker run` into the shell, which authoris
 cloudtools gcloud --help
 ```
 ```
-cloudtools gcloud auth list
+cloudtools gcloud components list
 ```
 ```
 cloudtools gsutil ls gs://<your GCP bucket>
