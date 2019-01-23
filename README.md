@@ -2,7 +2,7 @@
 ****
 #### Setup
 
-Create or select a GCP service account with an appropriate role granted for access to GCP resources as you see fit. Save the credential `.json`
+Create a GCP service account with an appropriate role granted for access to GCP resources as you see fit. Save the credential `.json`
 
 Create an IAM user in AWS with an appropriate role granted for access to AWS resources as you see fit. Record the AWS_ACCESS_KEY_ID and the AWS_SECRET_ACCESS_KEY. Use these to create a script file '<your-script-name>.sh' copying the example below.
 
