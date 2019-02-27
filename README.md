@@ -55,4 +55,3 @@ alias cloudtools="docker run -it --rm \
     -v $(pwd):/tmp/certs \
     bengordonfraser/cloudtools:latest"
 ```
-
